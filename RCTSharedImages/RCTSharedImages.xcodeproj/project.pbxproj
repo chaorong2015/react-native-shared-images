@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B16C7E81E0D1712004575BD /* RCTSharedImages.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B16C7E71E0D1712004575BD /* RCTSharedImages.h */; };
+		9B16C7EA1E0D1712004575BD /* RCTSharedImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C7E91E0D1712004575BD /* RCTSharedImages.m */; };
+		9B16C8321E0D193A004575BD /* SharedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C8311E0D193A004575BD /* SharedItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B16C7E21E0D1712004575BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9B16C7E81E0D1712004575BD /* RCTSharedImages.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B16C7E41E0D1712004575BD /* libRCTSharedImages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTSharedImages.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B16C7E71E0D1712004575BD /* RCTSharedImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTSharedImages.h; sourceTree = "<group>"; };
+		9B16C7E91E0D1712004575BD /* RCTSharedImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTSharedImages.m; sourceTree = "<group>"; };
+		9B16C8301E0D193A004575BD /* SharedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedItem.h; sourceTree = "<group>"; };
+		9B16C8311E0D193A004575BD /* SharedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B16C7E11E0D1712004575BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B16C7DB1E0D1712004575BD = {
+			isa = PBXGroup;
+			children = (
+				9B16C7E61E0D1712004575BD /* RCTSharedImages */,
+				9B16C7E51E0D1712004575BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B16C7E51E0D1712004575BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B16C7E41E0D1712004575BD /* libRCTSharedImages.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B16C7E61E0D1712004575BD /* RCTSharedImages */ = {
+			isa = PBXGroup;
+			children = (
+				9B16C8301E0D193A004575BD /* SharedItem.h */,
+				9B16C8311E0D193A004575BD /* SharedItem.m */,
+				9B16C7E71E0D1712004575BD /* RCTSharedImages.h */,
+				9B16C7E91E0D1712004575BD /* RCTSharedImages.m */,
+			);
+			path = RCTSharedImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B16C7E31E0D1712004575BD /* RCTSharedImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B16C7ED1E0D1712004575BD /* Build configuration list for PBXNativeTarget "RCTSharedImages" */;
+			buildPhases = (
+				9B16C7E01E0D1712004575BD /* Sources */,
+				9B16C7E11E0D1712004575BD /* Frameworks */,
+				9B16C7E21E0D1712004575BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTSharedImages;
+			productName = RCTSharedImages;
+			productReference = 9B16C7E41E0D1712004575BD /* libRCTSharedImages.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B16C7DC1E0D1712004575BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = maichong;
+				TargetAttributes = {
+					9B16C7E31E0D1712004575BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B16C7DF1E0D1712004575BD /* Build configuration list for PBXProject "RCTSharedImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B16C7DB1E0D1712004575BD;
+			productRefGroup = 9B16C7E51E0D1712004575BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B16C7E31E0D1712004575BD /* RCTSharedImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B16C7E01E0D1712004575BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B16C7EA1E0D1712004575BD /* RCTSharedImages.m in Sources */,
+				9B16C8321E0D193A004575BD /* SharedItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B16C7EB1E0D1712004575BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B16C7EC1E0D1712004575BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B16C7EE1E0D1712004575BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../node_modules/react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B16C7EF1E0D1712004575BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../node_modules/react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B16C7DF1E0D1712004575BD /* Build configuration list for PBXProject "RCTSharedImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B16C7EB1E0D1712004575BD /* Debug */,
+				9B16C7EC1E0D1712004575BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B16C7ED1E0D1712004575BD /* Build configuration list for PBXNativeTarget "RCTSharedImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B16C7EE1E0D1712004575BD /* Debug */,
+				9B16C7EF1E0D1712004575BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B16C7DC1E0D1712004575BD /* Project object */;
+}

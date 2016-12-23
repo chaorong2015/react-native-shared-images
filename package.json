@@ -1,0 +1,23 @@
+{
+  "name": "react-native-shared-images",
+  "version": "1.0.0",
+  "description": "iOS 分享链接 多张图片",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaorong2015/react-native-shared-images.git"
+  },
+  "keywords": [
+    "ios shared images"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chaorong@maichong.it",
+  "license": "MIT",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/chaorong2015/react-native-shared-images/issues"
+  },
+  "homepage": "https://github.com/chaorong2015/react-native-shared-images#readme"
+}

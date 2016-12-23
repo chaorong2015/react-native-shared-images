@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/chaorong/iOS/react-native-shared-images',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/chaorong/.npm/react-native-shared-images/1.0.0/package.tgz not in flight; packing
+9 info lifecycle react-native-shared-images@1.0.0~prepublish: react-native-shared-images@1.0.0
+10 silly lifecycle react-native-shared-images@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/chaorong/.npm/react-native-shared-images/1.0.0/package.tgz',
+11 verbose tar pack   '/Users/chaorong/iOS/react-native-shared-images' ]
+12 verbose tarball /Users/chaorong/.npm/react-native-shared-images/1.0.0/package.tgz
+13 verbose folder /Users/chaorong/iOS/react-native-shared-images
+14 verbose addLocalTarball adding from inside cache /Users/chaorong/.npm/react-native-shared-images/1.0.0/package.tgz
+15 silly cache afterAdd react-native-shared-images@1.0.0
+16 verbose afterAdd /Users/chaorong/.npm/react-native-shared-images/1.0.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/chaorong/.npm/react-native-shared-images/1.0.0/package/package.json written
+18 silly publish { name: 'react-native-shared-images',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'iOS 分享链接 多张图片',
+18 silly publish   main: 'index.js',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/chaorong2015/react-native-shared-images.git' },
+18 silly publish   keywords: [ 'ios shared images' ],
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   author: { name: 'chaorong@maichong.it' },
+18 silly publish   license: 'MIT',
+18 silly publish   dependencies: {},
+18 silly publish   bugs: { url: 'https://github.com/chaorong2015/react-native-shared-images/issues' },
+18 silly publish   homepage: 'https://github.com/chaorong2015/react-native-shared-images#readme',
+18 silly publish   readme: '# react-native-shared-images\n＃ iOS 分享链接 多张图片\n#### iOS\n1. `npm install react-native-shared-images --save`\n2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project\'s name]`\n3. Go to `node_modules` ➜ `react-native-camera` and add `RNImageWatermark.xcodeproj`\n4. In XCode, in the project navigator, select your project. Add `RNImageWatermark.a` to your project\'s `Build Phases` ➜ `Link Binary With Libraries`\n5. Click `RNImageWatermark.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure \'All\' is toggled on (instead of \'Basic\'). In the `Search Paths` section, look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../../../node_modules/react-native/React` - mark both as `recursive`.\n5. Run your project (`Cmd+R`)\n\n```js\n\n####使用说明\n\n##1、先引用库\nimport { SharedImages } from \'react-native-shared-images\';\n\n##2、接口说明\n/*分享多张图片*\n＊@para option {\n\timagePaths         array   数组，存放图片物理地址\n}\n*/\nawait SharedImages.shareImages(option);\n\n/*分享链接*\n＊@para option {\n\turl         String   存放链接地址\n}\n*/\nawait SharedImages.shareUrl(option);\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   _id: 'react-native-shared-images@1.0.0',
+18 silly publish   _shasum: '4a0d759cc4e1324ee587651f7ae78c5e8651a155',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name react-native-shared-images
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.npmjs.org/
+23 silly mapToRegistry uri http://registry.npmjs.org/react-native-shared-images
+24 verbose publish registryBase http://registry.npmjs.org/
+25 silly publish uploading /Users/chaorong/.npm/react-native-shared-images/1.0.0/package.tgz
+26 verbose request uri http://registry.npmjs.org/react-native-shared-images
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 17:49:32
+29 verbose request using bearer token for auth
+30 verbose request id 8a0c406ef72cd197
+31 http request PUT http://registry.npmjs.org/react-native-shared-images
+32 http 403 http://registry.npmjs.org/react-native-shared-images
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Fri, 23 Dec 2016 09:49:33 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1482486572.412614,VS0,VE656',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 verbose request invalidating /Users/chaorong/.npm/registry.npmjs.org/react-native-shared-images on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : react-native-shared-images
+36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:100:13)
+36 verbose stack     at Request.emit (events.js:185:7)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+36 verbose stack     at emitOne (events.js:95:20)
+36 verbose stack     at Request.emit (events.js:182:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid react-native-shared-images
+39 verbose cwd /Users/chaorong/iOS/react-native-shared-images
+40 error Darwin 15.0.0
+41 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "."
+42 error node v5.5.0
+43 error npm  v3.3.12
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.0." : react-native-shared-images
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
