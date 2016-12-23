@@ -76,7 +76,7 @@ RCT_EXPORT_METHOD(shareImages:(NSDictionary *)options
     /** 图片数组*/
     NSMutableArray * photos = [NSArray arrayWithArray:options[@"imagePaths"]];;
     NSLog(@"photos is :%@", photos);
-    for (int i = 0; i <8 && i<photos.count; i++) {
+    for (int i = 0; i <9 && i<photos.count; i++) {
         NSURL *URL = [RCTConvert NSURL:photos[i]];
         NSLog(@"photos is url= :%@", URL);
         NSError *error;
